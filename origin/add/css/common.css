@@ -1,0 +1,13 @@
+:root {
+  --c_wht: #fff;
+  --c_brk: #000;
+  --c_gry: rgb(118, 118, 118);
+  --c_gry2: rgb(239, 239, 242);
+  --c_gry3: #e8e8e8e9;
+  --c_gry4: #d7d7d7;
+  --c_red: #E73820;
+  --c_ble: #3498db;
+  --c_ttl: #e8e8e8;
+  --c_border: #c2c2c2;
+  --c_shadow: #909090;
+}

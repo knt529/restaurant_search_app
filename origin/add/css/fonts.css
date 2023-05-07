@@ -1,0 +1,233 @@
+/* フォントサイズ */
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: calc(14px + 2 * (100vw - 480px) / 886);
+}
+.f18 {
+  font-size: calc(16px + 2 * (100vw - 480px) / 886);
+}
+.f20 {
+  font-size: calc(18px + 2 * (100vw - 480px) / 886);
+}
+.f22 {
+  font-size: calc(20px + 2 * (100vw - 480px) / 886);
+}
+.f24 {
+  font-size: calc(20px + 4 * (100vw - 480px) / 886);
+}
+.f26 {
+  font-size: calc(22px + 4 * (100vw - 480px) / 886);
+}
+.f28 {
+  font-size: calc(22px + 6 * (100vw - 480px) / 886);
+}
+.f30 {
+  font-size: calc(22px + 8 * (100vw - 480px) / 886);
+}
+.f32 {
+  font-size: calc(22px + 10 * (100vw - 480px) / 886);
+}
+.f34 {
+  font-size: calc(22px + 12 * (100vw - 480px) / 886);
+}
+.f36 {
+  font-size: calc(22px + 14 * (100vw - 480px) / 886);
+}
+.f38 {
+  font-size: calc(22px + 16 * (100vw - 480px) / 886);
+}
+.f40 {
+  font-size: calc(25px + 15 * (100vw - 480px) / 886);
+}
+.f42 {
+  font-size: calc(25px + 17 * (100vw - 480px) / 886);
+}
+.f44 {
+  font-size: calc(25px + 19 * (100vw - 480px) / 886);
+}
+.f46 {
+  font-size: calc(25px + 21 * (100vw - 480px) / 886);
+}
+.f48 {
+  font-size: calc(25px + 23 * (100vw - 480px) / 886);
+}
+.f50 {
+  font-size: calc(27px + 23 * (100vw - 480px) / 886);
+}
+.f52 {
+  font-size: calc(27px + 25 * (100vw - 480px) / 886);
+}
+.f54 {
+  font-size: calc(27px + 27 * (100vw - 480px) / 886);
+}
+.f56 {
+  font-size: calc(27px + 29 * (100vw - 480px) / 886);
+}
+.f58 {
+  font-size: calc(27px + 31 * (100vw - 480px) / 886);
+}
+.f60 {
+  font-size: calc(30px + 30 * (100vw - 480px) / 886);
+}
+.f62 {
+  font-size: calc(30px + 32 * (100vw - 480px) / 886);
+}
+.f64 {
+  font-size: calc(30px + 34 * (100vw - 480px) / 886);
+}
+.f66 {
+  font-size: calc(30px + 36 * (100vw - 480px) / 886);
+}
+.f68 {
+  font-size: calc(30px + 38 * (100vw - 480px) / 886);
+}
+.f70 {
+  font-size: calc(30px + 40 * (100vw - 480px) / 886);
+}
+.f72 {
+  font-size: calc(30px + 42 * (100vw - 480px) / 886);
+}
+@media screen and (min-width: 1366px) {
+  .f16 {
+    font-size: 16px;
+  }
+  .f18 {
+    font-size: 18px;
+  }
+  .f20 {
+    font-size: 20px;
+  }
+  .f22 {
+    font-size: 22px;
+  }
+  .f24 {
+    font-size: 24px;
+  }
+  .f26 {
+    font-size: 26px;
+  }
+  .f28 {
+    font-size: 28px;
+  }
+  .f30 {
+    font-size: 30px;
+  }
+  .f32 {
+    font-size: 32px;
+  }
+  .f36 {
+    font-size: 36px;
+  }
+  .f38 {
+    font-size: 38px;
+  }
+  .f40 {
+    font-size: 40px;
+  }
+  .f42 {
+    font-size: 42px;
+  }
+  .f44 {
+    font-size: 44px;
+  }
+  .f46 {
+    font-size: 46px;
+  }
+  .f48 {
+    font-size: 48px;
+  }
+  .f50 {
+    font-size: 50px;
+  }
+  .f52 {
+    font-size: 52px;
+  }
+  .f54 {
+    font-size: 54px;
+  }
+  .f56 {
+    font-size: 56px;
+  }
+  .f58 {
+    font-size: 58px;
+  }
+  .f60 {
+    font-size: 60px;
+  }
+  .f62 {
+    font-size: 62px;
+  }
+  .f64 {
+    font-size: 64px;
+  }
+  .f66 {
+    font-size: 66px;
+  }
+  .f68 {
+    font-size: 68px;
+  }
+  .f70 {
+    font-size: 70px;
+  }
+  .f72 {
+    font-size: 72px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .f16 {
+    font-size: 16px;
+  }
+}
+
+/* Noto Sans CJK JP */
+.sans {
+  font-family: noto-sans-cjk-jp, sans-serif;
+  font-style: normal;
+}
+/* NotoSerif */
+.serif {
+  font-family: "Noto Serif JP", serif;
+}
+/* Robot */
+.robot {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* フォントウェイト */
+.fw_m {
+  font-weight: 500;
+}
+
+.fw_b {
+  font-weight: bold;
+}
+
+/* line-height */
+.ln_h1 {
+  line-height: 1;
+}
+.ln_h125 {
+  line-height: 1.25;
+}
+.ln_h15 {
+  line-height: 1.5;
+}
+.ln_h175 {
+  line-height: 1.75;
+}
+.ln_h2 {
+  line-height: 2;
+}
+
+/* text-align */
+.txt_ctr {
+  text-align: center;
+}
+.txt_rgt {
+  text-align: right;
+}

@@ -1,0 +1,27 @@
+$lg: 1366px; // PC
+$sm: 1280px; // PC
+$tab: 768px; // タブレット
+$sp: 480px;  // スマホ
+
+@mixin lg {
+  @media (min-width: ($lg)) {
+    @content;
+  }
+}
+@mixin sm {
+  @media (max-width: ($sm)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+// 読み込み先のcssファイルで @import "mixin"; を記載
